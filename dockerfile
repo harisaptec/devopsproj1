@@ -1,5 +1,5 @@
 
-FROM ubuntu:18.04
+FROM devopsedu/webapp
 RUN apt-get update
 RUN apt-get install -y nginx 
 RUN mkdir /tmp/devopsedu/webapp
